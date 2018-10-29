@@ -7,11 +7,11 @@ public class WhiteHuman implements HumanInterface {
 
     @Override
     public void getColor() {
-
+        System.out.println("i am white");
     }
 
     @Override
     public void talk() {
-
+        System.out.println("i speak english");
     }
 }
